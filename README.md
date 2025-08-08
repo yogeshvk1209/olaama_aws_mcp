@@ -415,7 +415,7 @@ For issues, questions, or contributions:
 3. Create a new issue with detailed information
 4. Include logs and system information
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details!!! Enjoy!!!
 
 ---
