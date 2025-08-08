@@ -6,7 +6,7 @@ import logging
 import threading
 import os
 from typing import Optional, List
-from config import MCPConfig
+from .config import MCPConfig
 
 
 class MCPServerManager:

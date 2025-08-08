@@ -6,10 +6,10 @@ import time
 from typing import Optional, Dict, Any
 from dataclasses import dataclass
 
-from ollama_client import OllamaClient
-from aws_query_detector import AWSQueryDetector, AWSDetectionResult
-from mcp_client_manager import MCPClientManager
-from context_enhancer import ContextEnhancer, EnhancedContext
+from .ollama_client import OllamaClient
+from .aws_query_detector import AWSQueryDetector, AWSDetectionResult
+from .mcp_client_manager import MCPClientManager
+from .context_enhancer import ContextEnhancer, EnhancedContext
 
 
 @dataclass

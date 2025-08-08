@@ -3,7 +3,7 @@
 
 import os
 from typing import Dict, Any, List
-from config import OllamaConfig, MCPConfig, MCPIntegrationConfig
+from .config import OllamaConfig, MCPConfig, MCPIntegrationConfig
 
 
 def validate_mcp_config(mcp_config: MCPIntegrationConfig) -> List[str]:

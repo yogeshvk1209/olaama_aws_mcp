@@ -3,11 +3,11 @@
 
 import sys
 import signal
-from config import OllamaConfig, create_ollama_parser
-from config_utils import validate_ollama_config, display_config_summary
-from logging_utils import setup_ollama_logging
-from enhanced_ollama_client import EnhancedOllamaClient
-from enhanced_cli_interface import EnhancedCLI
+from src.config import OllamaConfig, create_ollama_parser
+from src.config_utils import validate_ollama_config, display_config_summary
+from src.logging_utils import setup_ollama_logging
+from src.enhanced_ollama_client import EnhancedOllamaClient
+from src.enhanced_cli_interface import EnhancedCLI
 
 
 def setup_signal_handlers(client: EnhancedOllamaClient, logger):

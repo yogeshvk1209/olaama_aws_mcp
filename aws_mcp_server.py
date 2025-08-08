@@ -3,10 +3,10 @@
 
 import sys
 import signal
-from config import MCPConfig, create_mcp_parser
-from logging_utils import setup_mcp_logging
-from mcp_server_manager import MCPServerManager
-from server_status import display_server_status
+from src.config import MCPConfig, create_mcp_parser
+from src.logging_utils import setup_mcp_logging
+from src.mcp_server_manager import MCPServerManager
+from src.server_status import display_server_status
 
 
 def display_startup_info(config: MCPConfig, logger):

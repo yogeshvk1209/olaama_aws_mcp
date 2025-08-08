@@ -3,7 +3,7 @@
 
 import logging
 from typing import Optional
-from ollama_client import OllamaClient
+from .ollama_client import OllamaClient
 
 
 class CLI:

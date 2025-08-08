@@ -3,9 +3,9 @@
 
 import logging
 from typing import Optional, Dict, Any
-from enhanced_ollama_client import EnhancedOllamaClient, EnhancedResponse
-from config import OllamaConfig
-from config_utils import display_config_summary, validate_ollama_config
+from .enhanced_ollama_client import EnhancedOllamaClient, EnhancedResponse
+from .config import OllamaConfig
+from .config_utils import display_config_summary, validate_ollama_config
 
 
 class EnhancedCLI:

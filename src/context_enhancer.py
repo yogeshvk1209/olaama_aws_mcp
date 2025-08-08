@@ -5,7 +5,7 @@ import re
 import time
 from typing import List, Dict, Any, Optional
 from dataclasses import dataclass
-from mcp_client_manager import MCPClientManager, MCPResponse
+from .mcp_client_manager import MCPClientManager, MCPResponse
 
 
 @dataclass
