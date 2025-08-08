@@ -182,8 +182,8 @@ Create `config.json`:
 │   CLI Interface │    │  Enhanced Ollama │    │   AWS Query     │
 │                 │◄──►│     Client       │◄──►│   Detector      │
 │  - Commands     │    │                  │    │                 │
-│  - Status       │    │  - MCP Integration│    │ - Service ID    │
-│  - Config       │    │  - Context Enhance│    │ - Confidence    │
+│  - Status       │    │ - MCP Integration│    │ - Service ID    │
+│  - Config       │    │ - Context Enhance│    │ - Confidence    │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
                                 │
                                 ▼
